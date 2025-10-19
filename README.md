@@ -8,7 +8,7 @@ The queries calculate key performance indicators (KPIs), explore sales trends, a
 - **Tools used:** SQL Server, Power BI  
 - **Dataset:** Publicly available pizza sales dataset  
 - **KPIs included:** Total Revenue, Average Order Value, Total Orders, etc.  
-- **Visualizations:** Created in Power BI - [Main Page GIF](dashboard_screenshots/Main_page.gif), [Worst/Best sellers GIF](dashboard_screenshots/Best:Worst_sellers.gif)
+- **Visualizations:** Created in Power BI - [Main Page GIF](dashboard_screenshots/Main%20page.gif), [Worst/Best sellers GIF](dashboard_screenshots/Best:Worst%20sellers.gif)
 
 ### 🔗 Read the full article
 You can read my full Medium post here:  
