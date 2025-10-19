@@ -12,4 +12,4 @@ The queries calculate key performance indicators (KPIs), explore sales trends, a
 
 ### 🔗 Read the full article
 You can read my full Medium post here:  
-[Pizza KPIs & Trends Project]([https://medium.com/@max.ostapjuk/pizzas-kpi-trends-project-1cdf976eff9b])
+[Pizza KPIs & Trends Project](https://medium.com/@max.ostapjuk/pizzas-kpi-trends-project-1cdf976eff9b)
