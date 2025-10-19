@@ -21,13 +21,13 @@ from pizza_sales
 group by datepart(hour, order_time)
 order by daily_hour;
 
---Daily Trend For Total Orders (Monthly trend by replacing ‘Day_name’ (‘Month_name’) and ‘dw’ (‘month’))
+--Daily Trend For Total Orders (Monthly trend by replacing â€˜Day_nameâ€™ (â€˜Month_nameâ€™) and â€˜dwâ€™ (â€˜monthâ€™))
 select datename(dw, order_date) as Day_name, count(distinct order_id) as total_orders
 from pizza_sales
 group by datename(dw, order_date)
 order by total_orders desc;
 
---Percentage Of Sales By Pizza Size (we also calculated categories by replacing ‘size’ (‘category’))
+--Percentage Of Sales By Pizza Size (we also calculated categories by replacing â€˜sizeâ€™ (â€˜categoryâ€™))
 with temp as 
 (select sum(total_price) as sales_per_size, pizza_size
 from pizza_sales
@@ -40,7 +40,7 @@ round((Sales_Per_Size / (select sum(total_price) from pizza_sales)), 4) * 100 as
 from temp
 order by Sales_Size_Percentage desc;
 
---Top 5 bestsellers by Revenue, Total Quantity and Total Orders (bottom 5 by replacing ‘desc’ (‘asc’))
+--Top 5 bestsellers by Revenue, Total Quantity and Total Orders
 select top 5
 	pizza_name,
 	sum(total_price) as Total_Revenue
@@ -84,3 +84,4 @@ select top 5
 from pizza_sales
 group by pizza_name
 order by Total_Orders  asc;
+
