@@ -1,4 +1,4 @@
-# Pizza Sales SQL Analysis
+# Pizza Sales SQL Analysis 
 
 This repository contains the SQL queries used in my Pizza KPIs & Trends data analysis project.
 
